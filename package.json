@@ -1,0 +1,15 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "Spaced Repition using Notion API.",
+  "main": "index.js",
+  "author": "Praveen Alex Mathew",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "scripts": {
+    "test" : "node_modules/.bin/mocha tests"
+  }
+}

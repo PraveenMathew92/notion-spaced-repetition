@@ -6,10 +6,12 @@
   "author": "Praveen Alex Mathew",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "chai": "^4.3.4",
-    "mocha": "^8.4.0"
+    "mocha": "^8.4.0",
+    "nock": "^13.0.11"
   },
   "scripts": {
-    "test" : "node_modules/.bin/mocha tests"
+    "test": "node_modules/.bin/mocha tests"
   }
 }
